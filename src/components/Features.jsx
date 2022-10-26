@@ -16,7 +16,7 @@ import assets from "../assets"
              <h1 className={`${styles.h1Text} ${styles.whiteText}`}>Tecnologias</h1>
              <p className={`${styles.pText} ${styles.whiteText}`}>Foi desenvolvido usando uma tecnologia multiplataforma, React Native.</p>
             </div>
-      </div>
+      
       <div className={styles.flexWrap}>
          <FeatureCard iconUrl={assets.react}
          iconText="React Native"
@@ -25,7 +25,7 @@ import assets from "../assets"
          iconText="JavaScript"
          />
       </div>
-
+      </div>
      </div>
     )
 }
