@@ -1,8 +1,19 @@
+  import styles from "../styles/Global"
   
-  
-  const  Button  = ()=>{
+  const  Button  = ({assetUrl, link})=>{
        return(
-        <div>Button</div>
+        <div
+        className={styles.btnBlack}
+        onClick={()=>window.open(link, "_blank")}
+        >
+        <img src={assetUrl} alt="expo_icon" className={styles.btnIcon}/>
+         <div className="flex flex-col justify-start ml-4 ">
+         
+        
+         <p className={`${styles.btnText} font-normal text-xs`} >Veja em</p> 
+         <p className={`${styles.btnText} font-normal text-sm`} >Expo Store</p> 
+         </div>
+        </div>
        )
    }
 

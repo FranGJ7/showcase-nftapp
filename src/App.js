@@ -7,11 +7,10 @@ import assets from "./assets"
 const App =()=> {
   return (
     <>
-    <Download/>
-    <Features/>
+   
     <SectionWrapper
-    title="You own store of Nifty NFTs. Start Sell & Growing."
-    description="Buy, store, collect NFTs, exchange & earn crypto. Join 25+ million people using ProNef Marketplace"
+    title="Você possui uma loja de Nifty NFTs. Comece a vender e crescer."
+    description="Compre, armazene, colete NFTs, troque e ganhe criptomoedas. Junte-se a mais de 25 milhões de pessoas usando o Marketplace"
     showBtn
     mockupImg={assets.homeHero}
     banner="banner"
